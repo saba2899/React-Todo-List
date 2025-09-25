@@ -1,9 +1,7 @@
 export function Option({ value, onChange }) {
   return (
     <select
-      name=""
-      id=""
-      className="bg-[#6C63FF] text-white rounded hover:bg-[#5850DD] cursor-pointer"
+      className="bg-[#6C63FF] text-white rounded hover:bg-[#5850DD] cursor-pointer lg:w-fit w-fit"
       value={value}
       onChange={onChange}
     >

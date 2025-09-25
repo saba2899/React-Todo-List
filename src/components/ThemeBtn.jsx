@@ -15,7 +15,7 @@ function ThemeBtn() {
       onClick={toggleTheme}
       className="bg-[#6C63FF] text-white p-2 rounded cursor-pointer hover:bg-[#5850DD]"
     >
-      {theme ? <IoSunnyOutline /> : <FaMoon />}
+      {theme === "light" ? <FaMoon /> : <IoSunnyOutline />}
     </button>
   );
 }
